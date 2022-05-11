@@ -1,0 +1,10 @@
+    {
+        "leverage": 1,
+        "currency": "BLAH",
+        "ibAccount": false,
+        "trailingStop": true,
+        "leverageMultiplier": 1.00,
+        "group": "some_group_here",
+        "companyUnit": 123456789,
+        "spreadType": null
+    }
