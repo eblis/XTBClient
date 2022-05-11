@@ -4,7 +4,7 @@
 
 A python library supporting both asyncio and "normal" clients for X-Trade Brokers (XTB) trading using websockets.
 
-It will use either [websockets](https://websockets.readthedocs.io/en/stable/) if using the [async XTB client](XTBApi/client/axtb.py) or [websocket-client](https://websocket-client.readthedocs.io/en/latest/) if using the [sync XTB client](XTBApi/client/xtb.py)
+It will use either [websockets](https://websockets.readthedocs.io/en/stable/) if using the [async XTB client](XTBClient/client/axtb.py) or [websocket-client](https://websocket-client.readthedocs.io/en/latest/) if using the [sync XTB client](XTBClient/client/xtb.py)
 
 # Installing
 To install the client(s) just run `pip install xtb-client`.
@@ -22,9 +22,9 @@ import datetime
 import logging
 import sys
 
-from XTBApi.client import XTBAsyncClient
-from XTBApi.models.models import ConnectionMode, Period, Transaction, TradeOperation, TradeType
-from XTBApi.models.requests import ChartLastInfoRecord, ChartRangeRecord
+from XTBClient.client import XTBAsyncClient
+from XTBClient.models.models import ConnectionMode, Period, Transaction, TradeOperation, TradeType
+from XTBClient.models.requests import ChartLastInfoRecord, ChartRangeRecord
 
 logging.basicConfig(level=logging.DEBUG, stream=sys.stdout)
 
@@ -99,9 +99,9 @@ import logging
 import sys
 import time
 
-from XTBApi.models.models import ConnectionMode, Period, Transaction, TradeOperation, TradeType
-from XTBApi.models.requests import ChartLastInfoRecord, ChartRangeRecord
-from XTBApi.client.xtb import XTBSyncClient
+from XTBClient.models.models import ConnectionMode, Period, Transaction, TradeOperation, TradeType
+from XTBClient.models.requests import ChartLastInfoRecord, ChartRangeRecord
+from XTBClient.client.xtb import XTBSyncClient
 
 logging.basicConfig(level=logging.DEBUG, stream=sys.stdout)
 

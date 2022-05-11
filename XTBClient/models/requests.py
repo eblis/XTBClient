@@ -4,7 +4,7 @@ from typing import Union
 
 from dataclasses_json import config
 
-from XTBApi.models.models import XTBDataClass, Period, XTBDateTime, Transaction
+from XTBClient.models.models import XTBDataClass, Period, XTBDateTime, Transaction
 
 
 @dataclass

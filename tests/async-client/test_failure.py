@@ -1,6 +1,6 @@
 import pytest
 
-from XTBApi.errors import InvalidCall
+from XTBClient.errors import InvalidCall
 from tests import testing_utils
 
 

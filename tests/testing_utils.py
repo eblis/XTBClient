@@ -1,8 +1,8 @@
 import json
 from pathlib import Path
 
-from XTBApi.client.axtb import XTBAsyncClient
-from XTBApi.models.models import ConnectionMode, XTBCommand, XTBDataClass, ApiCommand
+from XTBClient.client.axtb import XTBAsyncClient
+from XTBClient.models.models import ConnectionMode, XTBCommand, XTBDataClass, ApiCommand
 
 
 def mock_xtb_client(mocker, login_successful=True) -> XTBAsyncClient:

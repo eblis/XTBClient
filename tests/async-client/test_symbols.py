@@ -1,7 +1,7 @@
 import pytest
 
-from XTBApi.models.models import XTBCommand
-from XTBApi.models.requests import SymbolRequest
+from XTBClient.models.models import XTBCommand
+from XTBClient.models.requests import SymbolRequest
 from tests import testing_utils
 
 

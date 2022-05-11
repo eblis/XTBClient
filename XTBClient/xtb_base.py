@@ -6,9 +6,9 @@ from typing import Type, Union
 
 from dataclasses_json import dataclass_json
 
-from XTBApi.models.models import ConnectionMode, Symbol, Calendar, CurrentUserData, Trade, RateInfo, Transaction, TransactionStatus, \
+from XTBClient.models.models import ConnectionMode, Symbol, Calendar, CurrentUserData, Trade, RateInfo, Transaction, TransactionStatus, \
     XTBDataClass
-from XTBApi.models.requests import ChartLastInfoRecord, ChartRangeRecord, LoginRequest
+from XTBClient.models.requests import ChartLastInfoRecord, ChartRangeRecord, LoginRequest
 
 
 class XTBBaseClient(abc.ABC):

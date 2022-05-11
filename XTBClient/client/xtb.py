@@ -7,12 +7,12 @@ from typing import Type, Optional, Union
 import websocket
 from dataclasses_json import dataclass_json
 
-from XTBApi.errors import NotLoggedInError, InvalidCall
-from XTBApi.models.models import ConnectionMode, ApiCommand, XTBCommand, Symbol, Calendar, CurrentUserData, Trade, RateHistory, \
+from XTBClient.errors import NotLoggedInError, InvalidCall
+from XTBClient.models.models import ConnectionMode, ApiCommand, XTBCommand, Symbol, Calendar, CurrentUserData, Trade, RateHistory, \
     RateInfo, Transaction, TransactionStatus
-from XTBApi.models.requests import SymbolRequest, TradesRequest, TradesHistoryRequest, ChartLastInfoRecord, ChartLastRequest, ChartRangeRecord, \
+from XTBClient.models.requests import SymbolRequest, TradesRequest, TradesHistoryRequest, ChartLastInfoRecord, ChartLastRequest, ChartRangeRecord, \
     TransactionRequest, TransactionStatusRequest
-from XTBApi.xtb_base import XTBBaseClient
+from XTBClient.xtb_base import XTBBaseClient
 
 
 class XTBSyncClient(XTBBaseClient):
