@@ -6,6 +6,9 @@ A python library supporting both asyncio and "normal" clients for X-Trade Broker
 
 It will use either [websockets](https://websockets.readthedocs.io/en/stable/) if using the [async XTB client](XTBClient/client/axtb.py) or [websocket-client](https://websocket-client.readthedocs.io/en/latest/) if using the [sync XTB client](XTBClient/client/xtb.py)
 
+# Source code
+Available on [github.com](https://github.com/eblis/XTBClient)
+
 # Installing
 To install the client(s) just run `pip install xtb-client`.
 Or, better yet, using poetry run `poetry add xtb-client`.
