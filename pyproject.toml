@@ -1,6 +1,7 @@
 [tool.poetry]
 name = "XTBClient"
-version = "0.1.0"
+version = "0.1.1"
+readme = "README.md"
 description = "XTB trading platform client"
 authors = ["Cristian Libotean <eblis102@gmail.com>"]
 
